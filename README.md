@@ -16,4 +16,4 @@ Ans:Arrow functions are a shorter way to write functions. For example, (a, b) =>
 Ans:Destructuring lets you unpack values from arrays or objects into separate variables in a single line. For example, const {name, age} = person; pulls out both properties without writing them one by one. It makes code shorter and cleaner.
 
 5) Explain template literals in ES6. How are they different from string concatenation?
-Ans:emplate literals use backticks (`) instead of quotes and let you insert variables with ${}. For example: `Hello, ${name}` is simpler than "Hello " + name. They also support multi-line strings, which makes them more powerful than regular string concatenation.
+Ans:Template literals use backticks (`) instead of quotes and let you insert variables with ${}. For example: Hello, ${name} is simpler than "Hello " + name. They also support multi-line strings, which makes them more powerful than regular string concatenation.
