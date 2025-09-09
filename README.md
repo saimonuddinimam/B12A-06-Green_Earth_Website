@@ -10,5 +10,7 @@ map() is used when you want to transform an array into a new array. For example,
 filter() is used when you want to pick certain elements from an array that match a condition. For example, from a list of numbers, you might filter out only the even ones. It also returns a new array, but the length may be shorter depending on the condition.
 
 3) What are arrow functions in ES6?
+Ans:Arrow functions are a shorter way to write functions. For example, (a, b) => a + b is the same as a normal function that returns a + b. They also don’t have their own this, which makes them easier to use in callbacks and object methods.
+
 4) How does destructuring assignment work in ES6?
 5) Explain template literals in ES6. How are they different from string concatenation?
