@@ -4,6 +4,11 @@
 Ans:var is the old way of declaring variables and is function-scoped, which can cause unexpected bugs. let is block-scoped and doesn’t allow redeclaration, making it safer. const is also block-scoped, but once a value is assigned you cannot reassign it (though arrays/objects can still be modified). In modern JavaScript, let and const are preferred, and var is mostly avoided.
 
 2) What is the difference between map(), forEach(), and filter()?
+Ans:All three of these methods loop through arrays, but they serve different purposes.
+forEach() is simple: it just goes through each item in the array and runs your function. It doesn’t return anything useful, just executes side effects like printing values.
+map() is used when you want to transform an array into a new array. For example, doubling every number in an array and returning the new set of numbers. The important thing is map() always returns a new array of the same length.
+filter() is used when you want to pick certain elements from an array that match a condition. For example, from a list of numbers, you might filter out only the even ones. It also returns a new array, but the length may be shorter depending on the condition.
+
 3) What are arrow functions in ES6?
 4) How does destructuring assignment work in ES6?
 5) Explain template literals in ES6. How are they different from string concatenation?
